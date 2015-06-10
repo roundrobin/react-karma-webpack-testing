@@ -1,5 +1,5 @@
 var React = require('react');
-
+var logger = require('bragi-browser');
 var Root = React.createClass({
 
   render: function () {
@@ -20,6 +20,7 @@ var Root = React.createClass({
   },
 
   getInitialState: function () {
+    logger.log("Root:getInitialState", "called...");
     return {
       name: ''
     };

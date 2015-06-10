@@ -21,6 +21,7 @@
     "karma-webpack": "^1.5.0",
     "mocha": "^2.1.0",
     "react": "^0.12.2",
-    "webpack": "^1.5.3"
+    "webpack": "^1.5.3",
+    "bragi-browser": "0.0.11"
   }
 }
